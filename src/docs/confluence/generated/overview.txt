@@ -1,0 +1,33 @@
+h1. demo
+
+
+h2. Overview {anchor:overview}
+swagger for demo
+
+
+h3. Version information
+_Version_ : 1.0.0.RELEASE
+
+
+h3. Contact information
+_Contact_ : liangxiong\\ 
+_Contact Email_ : 1071608617@qq.com
+
+
+h3. License information
+_License_ : Apache License, Version 2.0\\ 
+_License URL_ : https://www.apache.org/licenses/LICENSE-2.0.html\\ 
+_Terms of service_ : https://github.com/dyc87112/spring-boot-starter-swagger
+
+
+h3. URI scheme
+_Host_ : localhost\\ 
+_BasePath_ : /
+
+
+h3. Tags
+
+* 首页 : Index Controller
+
+
+

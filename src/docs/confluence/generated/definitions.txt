@@ -1,0 +1,12 @@
+
+h2. Definitions {anchor:definitions}
+
+h3. House {anchor:house}
+
+||Name||Schema||
+|*houseId*\\ \\ _optional_||string|
+|*location*\\ \\ _optional_||string|
+|*polygon*\\ \\ _optional_||string|
+
+
+

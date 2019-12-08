@@ -1,0 +1,20 @@
+
+[[_definitions]]
+== Definitions
+
+[[_house]]
+=== House
+
+[options="header", cols=".^3a,.^4a"]
+|===
+|Name|Schema
+|**houseId** +
+__optional__|string
+|**location** +
+__optional__|string
+|**polygon** +
+__optional__|string
+|===
+
+
+

@@ -1,0 +1,86 @@
+
+h2. Paths {anchor:paths}
+
+h3. 读取用户数据 {anchor:hellousingpost}
+{noformat}
+POST /hello
+{noformat}
+
+
+h4. Parameters
+
+||Type||Name||Description||Schema||
+|*Header*|*name one*\\ \\ _required_||some description one||string|
+|*Query*|*houseId*\\ \\ _optional_|| ||string|
+|*Query*|*location*\\ \\ _optional_|| ||string|
+|*Query*|*polygon*\\ \\ _optional_|| ||string|
+|*Body*|*name two*\\ \\ _optional_||some description two||string|
+
+
+h4. Responses
+
+||HTTP Code||Description||Schema||
+|*200*||OK||[House|#house]|
+|*500*||500post||[ERROR|#error]|
+
+
+h4. Consumes
+
+* {noformat}application/json{noformat}
+
+
+h4. Produces
+
+* {noformat}\*/*{noformat}
+
+
+h4. Tags
+
+* 首页
+
+
+h4. Security
+
+||Type||Name||Scopes||
+|*apiKey*|*[Authorization|#authorization]*||global|
+
+
+h3. 访问首页 {anchor:indexusingget}
+{noformat}
+GET /index
+{noformat}
+
+
+h4. Parameters
+
+||Type||Name||Description||Schema||Default||
+|*Header*|*name one*\\ \\ _required_||some description one||string|| |
+|*Query*|*username*\\ \\ _required_||用户名称||string||{noformat}"李白"{noformat}|
+|*Body*|*name two*\\ \\ _optional_||some description two||string|| |
+
+
+h4. Responses
+
+||HTTP Code||Description||Schema||
+|*200*||OK||string|
+|*401*||401get||No Content|
+|*500*||500get||[ERROR|#error]|
+
+
+h4. Produces
+
+* {noformat}\*/*{noformat}
+
+
+h4. Tags
+
+* 首页
+
+
+h4. Security
+
+||Type||Name||Scopes||
+|*apiKey*|*[Authorization|#authorization]*||global|
+
+
+
