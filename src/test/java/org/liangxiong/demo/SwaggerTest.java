@@ -17,7 +17,7 @@ import java.nio.file.Paths;
  */
 @RunWith(SpringRunner.class)
 @SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.DEFINED_PORT)
-public class DemoApplicationTest {
+public class SwaggerTest {
 
     @Test
     public void generateAsciiDocs() throws Exception {
